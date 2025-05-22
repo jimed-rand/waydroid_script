@@ -14,8 +14,8 @@ class AndroidId:
             except:
                 return
         else:
-            Logger.error("Please make sure Waydroid is running and Gapps has been installed!")
+            Logger.error("Make sure Waydroid session is running and has installed GAPPS images!")
             return
         print(queryout.replace("android_id|", "").strip())
-        print("   ^----- Open https://google.com/android/uncertified/?pli=1")
-        print("          Login with your google id then submit the form with id shown above")
+        print("   ^----- Access this link --------> https://google.com/android/uncertified/")
+        print("          Login with your Google account and Submit the Android GSF ID there")
